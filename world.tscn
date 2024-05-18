@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://beqhuferpd1nm"]
+
+[ext_resource type="PackedScene" uid="uid://c3od086fxtqr8" path="res://random_sprite.tscn" id="1_uudjs"]
+
+[node name="World" type="Node2D"]
+
+[node name="Sprite2D" parent="." instance=ExtResource("1_uudjs")]
+position = Vector2(573, 277)
+
+[node name="Sprite2D2" parent="." instance=ExtResource("1_uudjs")]
+position = Vector2(390, 210)
+
+[node name="Sprite2D3" parent="." instance=ExtResource("1_uudjs")]
+position = Vector2(697, 144)
+
+[node name="Sprite2D4" parent="." instance=ExtResource("1_uudjs")]
+position = Vector2(295, 408)
+
+[node name="Sprite2D5" parent="." instance=ExtResource("1_uudjs")]
+position = Vector2(650, 427)
+
+[node name="Sprite2D6" parent="." instance=ExtResource("1_uudjs")]
+position = Vector2(797, 310)

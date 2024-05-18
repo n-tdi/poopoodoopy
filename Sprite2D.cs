@@ -11,7 +11,7 @@ public partial class Sprite2D : Godot.Sprite2D
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		const float AMOUNT = 5;
+		const float AMOUNT = 10;
 		
 		if (Input.IsKeyPressed(Key.W))
 		{

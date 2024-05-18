@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class SpriteRandom : Sprite2D
+public partial class SpriteRandom : MainMovement
 {
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -12,7 +12,7 @@ public partial class SpriteRandom : Sprite2D
 	public override void _Process(double delta)
 	{
 		uint movement = GD.Randi() % 4;
-		const float AMOUNT = 10;
+		const float AMOUNT = 5;
 		
 		if (movement == 0)
 		{

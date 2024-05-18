@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://beqhuferpd1nm"]
+[gd_scene load_steps=3 format=3 uid="uid://beqhuferpd1nm"]
 
+[ext_resource type="Script" path="res://world.cs" id="1_c16gl"]
 [ext_resource type="PackedScene" uid="uid://c3od086fxtqr8" path="res://random_sprite.tscn" id="1_uudjs"]
 
 [node name="World" type="Node2D"]
+script = ExtResource("1_c16gl")
 
 [node name="Sprite2D" parent="." instance=ExtResource("1_uudjs")]
 position = Vector2(573, 277)
